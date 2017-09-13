@@ -1,0 +1,12 @@
+{  
+   "name":"$serviceName",
+   "label":"user-provided",
+   "credentials":{
+      "dbname":"$dbname",
+      "hostname": "$hostname",
+      "port": "$port",
+      "username": "$username",
+      "password": "$password",
+      "uri":"$scheme://$username:$password@$hostname:$port"
+   }
+}

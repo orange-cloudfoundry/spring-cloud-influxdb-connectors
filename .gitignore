@@ -1,0 +1,15 @@
+dependency-reduced-pom.xml
+.classpath
+.project
+.settings
+.metadata
+target
+build
+Servers
+.gradle
+_site
+.idea
+*.iml
+*.ipr
+*.iws
+classes/

@@ -1,0 +1,14 @@
+{  
+   "name":"$serviceName",
+   "label":"influxdb",
+   "plan":"default",
+   "tags": [ "influxdb" ],
+   "credentials":{  
+      "dbname":"$dbname",
+      "hostname": "$hostname",
+      "port": "$port",
+      "username": "$username",
+      "password": "$password",
+      "uri":"$scheme://$username:$password@$hostname:$port"
+   }
+}
