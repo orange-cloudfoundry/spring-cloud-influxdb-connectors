@@ -14,14 +14,14 @@ Spring cloud influxDB service connectors to use influxDB in CloudFoundry.
 
 The connectors will check for an existing bound service with:
 
-- tags including influxdb
+- tags including ``influxdb``
 
-- label beginning with the influxdb tag
+- label beginning with the ``influxdb`` tag
 
 
 The connectors will also check for an existing bound user-provided service with:
 
-- name beginning with the influxdb tag
+- name beginning with the ``influxdb`` tag
 
 
 ## Getting started
