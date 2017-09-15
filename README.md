@@ -60,6 +60,25 @@ repositories {
     maven { url "http://dl.bintray.com/elpaaso/maven" }
 }
 ```
+### Add a connector to your project
+
+First, make a version propertie:
+
+**Maven**:
+
+```xml
+<properties>
+    <influxdb.connectors.version>1.0.6</s3.connectors.version>
+</properties>
+```
+
+**Gradle**:
+
+```gradle
+ext {
+	$influxDBConnectorsVersion = "1.0.6"
+}
+```
 
 ### Add a connector to your project
 
