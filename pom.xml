@@ -6,7 +6,7 @@
 
     <groupId>com.orange.spring.cloud.connectors</groupId>
     <artifactId>spring-cloud-influxdb-connectors</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-influxdb-connectors-core</module>
         <module>spring-cloud-influxdb-connectors-cloudfoundry</module>
