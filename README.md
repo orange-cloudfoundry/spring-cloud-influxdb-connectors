@@ -62,13 +62,13 @@ repositories {
 ```
 ### Add a connector to your project
 
-First, make a version propertie:
+First, make a version property:
 
 **Maven**:
 
 ```xml
 <properties>
-    <influxdb.connectors.version>1.0.6</s3.connectors.version>
+    <influxdb.connectors.version>1.0.6</influxdb.connectors.version>
 </properties>
 ```
 
